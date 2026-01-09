@@ -19,7 +19,7 @@ else:
 # ---------------------------------------------------------
 st.set_page_config(page_title="GE Aerospace: Engine Health Monitor", layout="wide")
 
-st.title("✈️ GE Aerospace: Turbofan RUL Predictor")
+st.title("✈️ Turbofan RUL Predictor")
 st.markdown("### Cloud-Native Inference Dashboard")
 
 # Create Tabs for different input methods
