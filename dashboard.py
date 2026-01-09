@@ -34,8 +34,8 @@ with tab1:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("⚙️ Operational Settings")
-        os_1 = st.slider("Operational Setting 1", -0.0050, 0.0050, -0.0007, step=0.0001 format="%.4f")
-        os_2 = st.slider("Operational Setting 2", -0.0006, 0.0006, -0.0004, step=0.0001 format="%.4f")
+        os_1 = st.slider("Operational Setting 1", -0.0050, 0.0050, -0.0007, step=0.0001, format="%.4f")
+        os_2 = st.slider("Operational Setting 2", -0.0006, 0.0006, -0.0004, step=0.0001, format="%.4f")
         
         st.subheader("🌡️ Temperature Sensors")
         sensor_2 = st.number_input("Total Temperature (Fan Inlet) [R]", value=641.82)
